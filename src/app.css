@@ -1,0 +1,64 @@
+body {
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 250px;
+  }
+  
+  .logbtn {
+    margin-left: 150px;
+  }
+  
+  .icon {
+    position: relative;
+    margin: auto;
+    margin-bottom: 60px;
+    color: black;
+  }
+  h5 {
+    color: black;
+  }
+  .navbar {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .delete {
+    float: right;
+    width: 50px;
+  }
+  .card-title {
+    float: left;
+  }
+  .add {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 5px;
+  }
+  .card {
+    position: relative;
+    top: 80px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.541);
+    column-gap: 15px;
+    row-gap: 10px;
+  }
+  .category {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+  }
+  
