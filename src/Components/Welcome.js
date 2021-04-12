@@ -55,7 +55,7 @@ export default function Welcome() {
               onClick={() => {
                 categoryFilter(k.id);
               }}
-              className="btn btn-outline-warning"
+              className="btn btn-warning"
             >
               {k.title}
             </button>
