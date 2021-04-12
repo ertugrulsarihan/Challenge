@@ -30,7 +30,7 @@ export default function LoginForm() {
               required
             />
             <label className="label" for="first_name">
-              <h5>First Name</h5>
+              <h5>FirstName</h5>
             </label>
           </div>
           <div class="input-field col s6">
@@ -42,7 +42,7 @@ export default function LoginForm() {
               required
             />
             <label className="label" for="last_name">
-              <h5>Last Name</h5>
+              <h5>LastName</h5>
             </label>
           </div>
         </div>
