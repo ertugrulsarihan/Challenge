@@ -45,10 +45,11 @@ export default function Card(props) {
         <div key={l.id} className="input-group mb-3">
           <div className="input-group-prepend"></div>
           <input
-            type="text"
+          type='text'
             className="form-control"
             aria-label="Text input with checkbox"
             value={l.content}
+            onChange={(e) => (l.content = e.target.value)}
           />
           <button onClick={() => removeTodo(l.id)} className="btn bt-danger">
             <i className="fas fa-trash"></i>
