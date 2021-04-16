@@ -1,7 +1,7 @@
 
 FOR PATİKA DEV
 
-https://flamboyant-johnson-6055f8.netlify.app
+
 
 
 
